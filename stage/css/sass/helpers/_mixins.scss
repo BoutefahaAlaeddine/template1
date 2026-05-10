@@ -1,0 +1,115 @@
+//mixing Hover
+//عمل hover
+@mixin hover($type, $color) {
+  &:hover {
+    @if ($type== "back") {
+      background-color: $color;
+    } @else if($type== "color") {
+      color: $color;
+    }
+  }
+}
+
+// خلطية لتحديد الهوامش
+@mixin margin($top: null, $right: null, $bottom: null, $left: null) {
+  margin: $top $right $bottom $left;
+}
+
+// خلطية لتحديد الحجم
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+// خلطية لتحديد الاختصاصات
+@mixin flex($value: 1) {
+  flex: $value;
+}
+
+// خلطية لتحديد اتجاه عنصر Flex
+@mixin flex-direction($direction) {
+  flex-direction: $direction;
+}
+
+// خلطية لتحديد محتوى Flex
+@mixin justify-content($content) {
+  justify-content: $content;
+}
+
+// خلطية لتحديد تحويل Flex
+@mixin align-items($alignment) {
+  align-items: $alignment;
+}
+
+// خلطية لتحديد موضع Flex
+@mixin align-self($alignment) {
+  align-self: $alignment;
+}
+
+// خلطية لتحديد نمط الخط
+@mixin text-style($style) {
+  font-style: $style;
+}
+
+// خلطية لتحديد الوزن
+@mixin font-weight($weight) {
+  font-weight: $weight;
+}
+
+// خلطية لتحديد الحجم والنمط
+@mixin font($size, $weight: normal, $style: normal) {
+  font-size: $size;
+  font-weight: $weight;
+  font-style: $style;
+}
+
+// خلطية لتضمين خلفية متكررة
+@mixin background-repeat($repeat) {
+  background-repeat: $repeat;
+}
+
+// خلطية لتحديد الصورة الخلفية
+@mixin background-image($url) {
+  background-image: url($url);
+}
+
+// خلطية لتحديد اللون الخلفي
+@mixin background-color($color) {
+  background-color: $color;
+}
+
+// خلطية لتحديد التركيب الخلفي
+@mixin background($value) {
+  background: $value;
+}
+
+// خلطية لتحديد خط الحدود
+@mixin border($width, $style: solid, $color: black) {
+  border: $width $style $color;
+}
+
+// خلطية لتحديد خط الحدود مع نصف القطر
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+
+// خلطية لتحديد خط الحدود بالدوائر
+@mixin circle($size, $color: black) {
+  width: $size;
+  height: $size;
+  background-color: $color;
+  border-radius: 50%;
+}
+@mixin flipUp($size, $direction) {
+  @if ($direction== "h") {
+    width: 100%;
+    height: $size;
+    left: 0;
+    top: 50%;
+  } @else if($direction== "v") {
+    width: $size;
+    height: 100%;
+    left: 50%;
+    top: 0;
+  }
+}

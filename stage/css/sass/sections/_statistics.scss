@@ -1,0 +1,73 @@
+.statistics {
+  background-color: rgba($Gray, 0.2);
+  .container {
+    .shorten {
+      top: -120px;
+      z-index: 1;
+      form {
+        &::before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-color: $DarkViolet;
+          z-index: -1;
+          top: 0;
+          left: 0;
+        }
+        position: relative;
+        padding: 50px;
+        background-image: url("../images/bg-shorten-desktop.svg");
+        input {
+          padding: 20px;
+        }
+        button {
+          width: 150px;
+          @media ($maxSmall) {
+            width: 100%;
+          }
+        }
+        .invalid-feedback {
+          bottom: 15px;
+          left: 65px;
+        }
+      }
+    }
+    ul {
+      li {
+        p {
+          color: $GrayishViolet;
+        }
+      }
+    }
+    .row {
+      &::before{
+        content: " ";
+        background-color: #2acfcf;
+        position: absolute;
+        @include flipUp(3px ,"h");
+        @media ($maxSmall) {
+          @include flipUp(3px ,"v");
+        }
+      }
+      .card {
+        height: fit-content;
+        span {
+          background-color: #3b3054;
+          padding: 15px;
+          top: -40px;
+          left: 10px;
+        }
+      }
+      .card:first-child {
+      
+      }
+      .card:nth-child(2) {
+        margin-top: 50px;
+      }
+      .card:nth-child(3) {
+        margin-top: 100px;
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+.custom-button {
+  padding: 8px 15px;
+  background-color: $Cyan;
+  @include hover("back", $Cyan-flat);
+  color: white !important;
+}

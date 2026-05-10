@@ -1,0 +1,39 @@
+//media query
+$maxMobile: "max-width:767px";
+$maxSmall: "max-width:991px";
+$minSmall: "min-width:768px";
+$minMedium: "min-width:992px";
+$maxMedium: "min-width:1199px";
+$minLarge: "min-width:1200px";
+
+//colors
+
+// Primary
+$Red: #F53838;
+//Secondary
+$Gray: #F8F8F8;
+
+
+//flat
+$RedFlat:#FFECEC;
+
+
+
+//Neutral
+$Green: #2FAB73;
+
+//text 
+$Black: #0B132A;
+$dark-gb:#4F5665;
+$light-g:#AFB5C0;
+
+//Shapes
+$Blue-grey:#DDE0E4;
+$light-g-2:#EEEFF2;
+
+
+//Shadows
+$redShadow:  rgba($Red, 0.5);
+
+//transition
+$transition:0.3s;

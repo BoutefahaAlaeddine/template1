@@ -1,0 +1,13 @@
+.boost{
+  background-image: url("../images/bg-boost-desktop.svg");
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: $DarkViolet;
+    z-index: -1;
+    top: 0;
+    left: 0;
+  }
+}

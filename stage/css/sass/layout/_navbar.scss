@@ -1,0 +1,22 @@
+header {
+  nav {
+    #navbarSupportedContent {
+      padding: 20px;
+      @media ($maxSmall) {
+        background-color: $DarkViolet;
+      }
+    }
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: $Gray;
+          @include hover("color", black);
+          @media ($maxSmall) {
+            @include hover("color", white);
+            padding: 16px 0;
+          }
+        }
+      }
+    }
+  }
+}
