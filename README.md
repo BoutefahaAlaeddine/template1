@@ -388,7 +388,7 @@ The **Cairo** font is licensed under the [SIL Open Font License 1.1](font/OFL.tx
 ## 🙋 Author
 
 **Alilo Alaedine**
-- GitHub: [@your-username](https://github.com/your-username)
+- GitHub: [@BoutefahaAlaeddine](https://github.com/BoutefahaAlaeddine)
 
 ---
 
