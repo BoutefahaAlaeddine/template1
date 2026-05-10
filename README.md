@@ -7,7 +7,7 @@
 ## 📸 Preview
 
 
-|---|---|
+
 | ![Preview 1](imageGithub/1.png) | ![Preview 2](imageGithub/2.png) |
 
 ---
