@@ -1,6 +1,6 @@
 # Alilo Coding — URL Shortener Landing Page
 
-🌐 Websites. A professional SaaS landing page for a URL shortening service, built with a full **Gulp 4** automation pipeline, **Pug** templating engine, and **SASS/SCSS**. Features a fully separated `stage/` source and `dist/` production output, a Node.js local server with **LiveReload**, and a rich library of reusable SASS mixins.
+ A professional SaaS landing page for a URL shortening service, built with a full **Gulp 4** automation pipeline, **Pug** templating engine, and **SASS/SCSS**. Features a fully separated `stage/` source and `dist/` production output, a Node.js local server with **LiveReload**, and a rich library of reusable SASS mixins.
 
 ---
 
